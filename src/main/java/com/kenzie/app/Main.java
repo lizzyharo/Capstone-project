@@ -42,7 +42,7 @@ public class Main {
                 System.out.println("Number: " + questionCounter + "/10");
                 System.out.println("Category: " + cluesDTO.getClues().get(setRandomNum).getCategory().getTitle());
                 System.out.println("Question: " + cluesDTO.getClues().get(setRandomNum).getQuestion());
-                System.out.println("What is your answer? " + cluesDTO.getClues().get(setRandomNum).getAnswer()); // Printing out answer just for testing purposes
+                System.out.println("What is your answer? "); // Printing out answer just for testing purposes
 
                 Scanner scanner = new Scanner(System.in);   //creating scanner for userInput
                 String userAnswer = scanner.nextLine();   //reading userInput
